@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(178, 172, 195);
+     margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+       
+    
+}
+
+#containerOfBoxes {
+    display: flex;
+    flex-flow: column wrap;
+    border: solid 10px blue;
+    
+    
+}
+.buttons {
+   display: flex;
+   gap: 54px;
+   border: solid 10px blue;   
+   background-color:blue
+   
+   
+}
+ button {
+     padding-inline: 30px;
+     background-color: #007bff;
+     width: 105px;
+     font-size: 25px;
+     color: #ffffff;
+     display: flex;
+     justify-content: center;
+     align-items: center;    
+     cursor: pointer;
+     
+ }   
